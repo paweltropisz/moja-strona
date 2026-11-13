@@ -176,14 +176,13 @@ nav a:hover { color: var(--kolor-glowny-ciemny); }
 
 /* Realizacje */
 .podglad {
-  height: 170px;
+  display: block;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
   border-radius: 8px;
   margin-bottom: 16px;
 }
-
-.podglad-1 { background: linear-gradient(135deg, #8a9a7b, #5c6b52); }
-.podglad-2 { background: linear-gradient(135deg, #a8763e, #6e4a24); }
-.podglad-3 { background: linear-gradient(135deg, #c08a5d, #8a5a35); }
 
 /* Kontakt */
 .sekcja-kontakt {
